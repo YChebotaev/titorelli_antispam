@@ -1,0 +1,27 @@
+{
+  "name": "@titorelli_antispam/antispam-client",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/antispam-client.cjs",
+  "module": "./dist/antispam-client.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/antispam-client.cjs",
+      "require": "./dist/antispam-client.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "peerDependencies": {
+    "axios": "^1.1.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
