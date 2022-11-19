@@ -9,7 +9,6 @@
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
   "repository": {},
-  "license": "UNLICENSED",
   "devDependencies": {
     "@remotion/eslint-config": "^3.0.0",
     "@types/react": "^18.0.6",
@@ -24,5 +23,6 @@
     "react-dom": "^18.0.0",
     "remotion": "3.3.1",
     "remotion-transition-series": "^0.0.4"
-  }
+  },
+  "license": "GPL-3.0"
 }
